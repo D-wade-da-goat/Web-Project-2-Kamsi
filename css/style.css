@@ -1,0 +1,161 @@
+/* 
+
+Kamsiyochukwu Ikwuetoghu 
+
+Web Development 
+
+Mrs. Hoitink 
+
+Pembina Trails Collegiate 
+
+October 21, 2024 
+
+*/
+.image {
+    position: relative;
+    width: 1000px;
+}
+
+img {
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.content:hover {
+    opacity: 1;
+}
+
+.content h1 {
+    font-size: 40px;
+    color: #000;
+    font-family: sans-serif;
+    font-weight: 450;
+}
+
+.content p {
+    font-size: 20px;
+    color: #000;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+.content > * {
+    transform: translateY(25px);
+    transition: transform 0.6s;
+}
+
+.content:hover > * {
+    transform: translateY(0px);
+}
+
+footer {
+    text-align: center;
+    padding: 1px;
+    color: white;
+    background-color: rgb(0, 97, 21);
+    opacity: 0.75;
+    margin-top: 25px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+iframe {
+    margin: 0 auto;
+    height: 400px;
+    width: 700px;
+}
+
+.image2 {
+    position: relative;
+    width: 700px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00dc21;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(29, 29, 29);
+    align-items: center;
+    text-align: center;
+}
+
+li a {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 17.5px;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+li a:hover {
+    background-color: #087400;
+    color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+}
+
+p a {
+    color: rgb(255, 238, 0);
+}
+
+p a:hover {
+    color: rgb(0, 54, 230);
+}
+
+.content2 {
+    width: 100%;
+    height: 60%;
+    background: rgb(37, 35, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.6;
+    transition: 0.6s;
+}
+
+.content2 h1 {
+    font-size: 40px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 450;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 200;
+    width: 95%;
+    margin: 15px;
+    margin-top: 40px;
+}
